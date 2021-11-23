@@ -1,0 +1,5 @@
+print('Welcome to the Temperature Conversion App')
+faren = float(input('\nWhat is the given temperature in degrees Fahrenheit: '))
+print(f'\nDegrees Fahrenheit: {faren}')
+print(f'Degrees Celsius: {(faren * 9 / 5) + 32 }')
+print(f'Degrees Kelvin: {(faren - 32) * 5 / 9 + 273.15}')
