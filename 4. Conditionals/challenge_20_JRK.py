@@ -45,8 +45,10 @@ while n < cant:
         computer += 1
 print('\nFinal Game Results')
 if player < computer:
-    ganador = 'Computer :-('
+    ganador = 'Winner: Computer :-('
+elif player > computer:
+    ganador = 'Winner PLAYER!!!'
 else:
-    ganador = 'PLAYER!!!'
-print(f'\tRounds Played: {cant}\n\tPlayer Score: {player}\n\tCoputer Score: {computer}\n\tWinner: {ganador}')
+    ganador = 'Empate'
+print(f'\tRounds Played: {cant}\n\tPlayer Score: {player}\n\tCoputer Score: {computer}\n\t{ganador}')
 #[JRK]

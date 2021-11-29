@@ -1,3 +1,4 @@
+#[JRK]
 users = ['raquel', 'jose', 'teresa', 'camilo', 'jaime']
 print('\nWelcome to the Shipping Accounts Program')
 username = input('Hello, what is your username: ').lower()
@@ -27,3 +28,4 @@ if username in users:
         print('Okay, no order is being placed at this time.')
 else:
     print('Sorry, you do not have an account with us. Goodbye.')
+#[JRK]

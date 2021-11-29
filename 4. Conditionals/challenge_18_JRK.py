@@ -1,3 +1,4 @@
+#[JRK]
 print('\nWelcome to the Voter Registration App\n')
 name = input('Please enter your name: ').title()
 age = int(input('Please enter your age: '))
@@ -15,3 +16,4 @@ if age >= 18:
         print('That is not a major party')
 else:
     print('\nYou are not old enough to register to vote.')
+#[JRK]

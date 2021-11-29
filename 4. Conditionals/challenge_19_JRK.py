@@ -1,3 +1,4 @@
+#[JRK]
 import random
 
 print('\nWelcome to the Guess My Number App')
@@ -20,3 +21,4 @@ if n == 9:
     pass
 else:
     print(f'\nGame Over. The number I was thinkig of was {aleatorio}.')
+#[JRK]
